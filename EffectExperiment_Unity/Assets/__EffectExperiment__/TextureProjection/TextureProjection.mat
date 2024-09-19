@@ -30,7 +30,7 @@ Material:
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2963
   stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
@@ -38,7 +38,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _ProjectorTexture:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 1c93de846a2bb2f418fd8bc599bf6712, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_93c33080704546769c135b4485c408d5_Texture_1_Texture2D:
@@ -60,7 +60,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _QueueControl: 0
-    - _QueueOffset: 0
+    - _QueueOffset: -37
     m_Colors:
-    - _ProjectorPos: {r: 0, g: 0, b: 0, a: 0}
+    - _ProjectorPos: {r: -0.47367066, g: 10.18, b: -14.37, a: 1}
   m_BuildTextureStacks: []
