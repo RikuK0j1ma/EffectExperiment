@@ -103,7 +103,11 @@
             "m_Id": "5bbc6c3dc027435ebfb774863f979135"
         }
     ],
-    "m_GroupDatas": [],
+    "m_GroupDatas": [
+        {
+            "m_Id": "3e387f2b2c7445afa80907ac41f471d1"
+        }
+    ],
     "m_StickyNoteDatas": [],
     "m_Edges": [
         {
@@ -838,7 +842,7 @@
     "m_Type": "UnityEditor.ShaderGraph.MatrixSplitNode",
     "m_ObjectId": "156fa9f25f8b4c15a253817520a72c2d",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "3e387f2b2c7445afa80907ac41f471d1"
     },
     "m_Name": "Matrix Split",
     "m_DrawState": {
@@ -1023,7 +1027,7 @@
     "m_Type": "UnityEditor.ShaderGraph.SplitNode",
     "m_ObjectId": "289af7b041be4fc3979fcaad3523bdb7",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "3e387f2b2c7445afa80907ac41f471d1"
     },
     "m_Name": "Split",
     "m_DrawState": {
@@ -1365,6 +1369,17 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.GroupData",
+    "m_ObjectId": "3e387f2b2c7445afa80907ac41f471d1",
+    "m_Title": "m00,m01,m02の大きさを取得",
+    "m_Position": {
+        "x": 10.0,
+        "y": 10.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "3f5e3abaa98240589624081007fbbbbf",
     "m_Group": {
@@ -1597,7 +1612,7 @@
     "m_Type": "UnityEditor.ShaderGraph.LengthNode",
     "m_ObjectId": "573dcfb9ac334162a689b0d60d0193d4",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "3e387f2b2c7445afa80907ac41f471d1"
     },
     "m_Name": "Length",
     "m_DrawState": {
@@ -1671,7 +1686,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector3Node",
     "m_ObjectId": "65763b636ca14502a47f932279aa781b",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "3e387f2b2c7445afa80907ac41f471d1"
     },
     "m_Name": "Vector 3",
     "m_DrawState": {
@@ -2014,10 +2029,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2386.037841796875,
-            "y": 691.3391723632813,
-            "width": 0.0,
-            "height": 0.0
+            "x": -2386.0,
+            "y": 701.0,
+            "width": 206.0,
+            "height": 131.0
         }
     },
     "m_Slots": [
@@ -2980,10 +2995,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1811.0,
-            "y": 588.9999389648438,
+            "x": -1769.0,
+            "y": 533.0,
             "width": 145.0,
-            "height": 112.00006103515625
+            "height": 112.0
         }
     },
     "m_Slots": [
@@ -3221,7 +3236,7 @@
     "m_Type": "UnityEditor.ShaderGraph.TransformationMatrixNode",
     "m_ObjectId": "f5af51afd6fe45cc8309a1119d5d322f",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "3e387f2b2c7445afa80907ac41f471d1"
     },
     "m_Name": "Transformation Matrix",
     "m_DrawState": {
